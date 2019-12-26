@@ -25,14 +25,20 @@ $ git add <文件名.后缀>
 将 暂存区的所有内容 提交到 当前分支 默认 master分支(一次提交多个文件)  
 $ git commit -m "<本次提交说明>"  
 
+查看当前 版本库 的状态
 $ git status  
+比较 分支上的文件 与 工作区的文件  
 $ git diff <文件名.后缀>  
-
+查看 分支 日志
 $ git log  
+特定格式输出  
 $ git log --pretty=oneline  
 HEAD 类似 指针 ，存在于 分支 中指向当前 版本号，通过调整 HEAD 实现版本 更新 或者 回退  
 $ git reset --hard HEAD^  
+查看所有分支的所有操作记录。
 $ git reflog  
+回退版本  
 $ git reset --hard <指定版本>  
 $ git diff HEAD -- <文件名.后缀>   
+将 本地仓库 与 远程仓库 关联
 $ git remote add origin git@github.com:michaelliao/learngit.git  
