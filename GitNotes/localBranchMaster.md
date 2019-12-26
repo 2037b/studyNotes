@@ -29,7 +29,7 @@ $ git commit -m "<本次提交说明>"
 $ git status  
 比较 分支上的文件 与 工作区的文件  
 $ git diff <文件名.后缀>  
-查看 分支 日志
+查看 分支 的 提交日志
 $ git log  
 特定格式输出  
 $ git log --pretty=oneline  
