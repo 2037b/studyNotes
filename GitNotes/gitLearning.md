@@ -33,7 +33,7 @@ $ git diff <文件名.后缀>
 $ git log  
 特定格式输出  
 $ git log --pretty=oneline  
-HEAD 类似 指针 ，存在于 分支 中指向当前 版本号，通过调整 HEAD 实现版本 更新 或者 回退  
+HEAD 类似 指针 ，存在于 分支中 指向当前 版本号，通过调整 HEAD 实现版本 更新 或者 回退  
 $ git reset --hard HEAD^  
 查看所有分支的所有操作记录。
 $ git reflog  
