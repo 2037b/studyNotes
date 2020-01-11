@@ -1,8 +1,8 @@
-# git
+# git/
 git 笔记
 
-# java
+# java/
 java 笔记
 
-# c
+# c/
 c语言 笔记

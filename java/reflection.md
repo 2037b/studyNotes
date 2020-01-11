@@ -3,6 +3,4 @@
 
 这种通过`Class`实例获取`class`信息的方法称为反射（Reflection）。
 
-## 如何获取一个`class`的`Class`实例
-
-* 
+* 通过 `==`来精确判断一个类型是不是`class`实例。

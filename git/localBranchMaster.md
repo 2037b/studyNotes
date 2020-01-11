@@ -18,7 +18,7 @@ $ git config --global user.email "email@example.com"
 创建 版本库 .git ，将 当前目录 变为git可管理的仓库  
 $ git init  
 
-将 文件 添加到 暂存区(stage)  
+将 文件 添加到 暂存区(stage)，untracked files和not staged files都用这个指令  
 $ git add <文件名.后缀>  
 
 将 暂存区的所有内容 提交到 本地仓库 当前分支 默认 master分支(一次提交多个文件)  
@@ -26,6 +26,12 @@ $ git commit -m "<本次提交说明>"
 
 查看当前 版本库 的状态
 $ git status  
+
+列出所有被 追踪管理 的文件  
+
+$ gti ls-tree -r master  
+
+$ git ls-tree -r master --name-only  
 
 比较 本地仓库上的文件 与 工作区的文件  
 $ git diff <文件名.后缀>  
